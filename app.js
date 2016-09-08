@@ -47,7 +47,8 @@
 
 		dealerScore = getHandScore(dealer);
 		playerScore = getHandScore(player);
-
+		
+		
 		console.log(getHandScore(player));
 		if(dealerScore === 21) {
 			showWinner();
