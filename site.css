@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+.card {
+ display: inline-block;
+ margin: 3px;
+ width: 110px;
+}
+.bg-img {
+    background: url(img/bjbg.png) no-repeat center center;
+    background-size: cover;
+    height: 1028px;
+}
+.header h1 {
+    color: #fff;
+    font-family: 'Monofett', cursive;
+    text-transform: uppercase;
+    font-size: 62px;
+}
+.bg-red {
+    background: red;
+    border-radius: 10px;
+}
+.bg-yellow {
+    background: yellow;
+    border-radius: 10px;
+}
+#winnerBanner h1 {
+    font-family: 'Monofett', cursive;
+    font-size: 75px;
+}
+.text-r {
+    color: red;
+}
+.text-b {
+    color: black;
+}
+#dealerCards h5 {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+#playerCards h5 {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="site.css">
+	<link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+</head>
+
+<body>
+	<div class="bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="header text-center">
+					<h1>Welcome to <p><span class="text-r">J</span>ack <span class="text-b">B</span>lack <span class="text-b">B</span>lack <span class="text-r">J</span>ack!</p></h1>
+				</div>
+				<div id="winnerBanner" class="hidden text-center">
+				</div>
+				<div class="text-center">
+					<button id="btnPlay" class="btn  btn-lg btn-primary">Play</button>
+					<button id="btnHit" class="btn btn-default hidden">Hit</button>
+					<button id="btnStand" class="btn btn-warning hidden">Stand</button>
+					<button id="btnPlayAgain" class="btn btn-primary hidden">Play Again</button>
+				</div>
+				<div id="dealerCards" class="hidden">
+					<h5>Dealer's Hand:</h5>
+					<img id="dealerCard1" class="card" src="img/back.png" alt=" ">
+					<img id="dealerCard2" class="card" src="img/back.png" alt=" ">
+					<h4 id="dealerScore"></h4>
+				</div>
+				<div id="playerCards" class="hidden">
+					<h5>Your Hand:</h5>
+					<img id="playerCard1" class="card" src="img/back.png" alt=" ">
+					<img id="playerCard2" class="card" src="img/back.png" alt=" ">
+					<h4 id="yourScore"></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="app.js "></script>
+</body>
+
+</html>
